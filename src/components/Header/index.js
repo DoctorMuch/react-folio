@@ -4,14 +4,16 @@ import Navigation from '../Navigation';
 const Header = () => {
 
   return (
-    <div>
-      <div>
-        <h1>The Brief, Wondrous Career of DoctorMuch*</h1>
+    <header className='container'>
+      <div className='flex-box'>
+        <h1>David F. Mueth</h1>
+        <h2>(The Brief, Wondrous Career of DoctorMuch*)</h2>
       </div>
       <div>
-        <Navigation />
+        <Navigation
+           />
       </div>
-    </div>
+    </header>
   )
 }
 

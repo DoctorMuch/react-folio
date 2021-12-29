@@ -13,6 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--text-color);
 }
 
 code {
@@ -24,17 +25,34 @@ header {
   background-color: var(--bold-color);
   color: var(--text-color);
   padding: 10px;
-  width: 90%;
-  align-items: center;
+  width: 100%;
 }
 
 a {
   text-decoration: none;
   color: var(--text-color);
+  margin-bottom: 12px;
 }
 
 a:hover {
   color: var(--neutral-color);
 }
 
+img {
+  height: 250px;
+  width: auto;
+  padding: 15px 5px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 3px;
+}
+
+.card {
+  background-color: var(--warm-color);
+  border-radius: 5px;
+  margin: 0 3px 15px 3px;
+}
 
